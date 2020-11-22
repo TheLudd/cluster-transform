@@ -1,9 +1,12 @@
 {
+  "type": "module",
   "dependencies": {
+    "chai": "^4.2.0",
     "into-stream": "^6.0.0",
+    "mocha": "^8.2.1",
     "ramda": "^0.27.1"
   },
   "scripts": {
-    "test": "echo Testless"
+    "test": "mocha"
   }
 }
