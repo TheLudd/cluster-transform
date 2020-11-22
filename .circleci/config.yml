@@ -9,6 +9,7 @@ jobs:
       - checkout
       - node/install-packages:
           pkg-manager: yarn
+          include-branch-in-cache-key: false
       - run:
           command: yarn test
           name: Run YARN tests
