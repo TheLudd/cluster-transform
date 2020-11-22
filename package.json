@@ -15,6 +15,8 @@
     "chai": "^4.2.0",
     "into-stream": "^6.0.0",
     "mocha": "^8.2.1",
-    "ramda": "^0.27.1"
+    "multipipe": "^4.0.0",
+    "ramda": "^0.27.1",
+    "through2-reduce": "^1.1.1"
   }
 }
